@@ -1,0 +1,80 @@
+body{
+    background-color:rgb(15, 209, 223) ;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    width: 500px;
+    height: 400px;;
+ background: white;
+    color: rgb(19, 150, 19);
+border-radius: 35px;
+
+
+}
+.container:hover{
+    box-shadow: 5px 5px 5px #8f8c8c;
+}
+b{
+    font-size: 30px;
+}
+input{
+    border-radius: 8px;
+    cursor: pointer;
+}
+.principal{
+  width: 180px;
+  height: 28px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  overflow: hidden;
+  padding: 0 10px 0 10px;
+}
+.lablep{
+    margin-top: 6px;
+}
+.rate{
+    width: 180px;
+    height: 28px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    overflow: hidden;
+    padding: 0 10px 0 10px;
+}
+.year{
+    width: 180px;
+    height: 28px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    overflow: hidden;
+    padding: 0 10px 0 10px;
+}
+#mySubmit{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    margin-top: 10px;
+    background-color: darkblue;
+    color: #0ef;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#h2{
+    margin-top: 8px;
+
+}
+#h22{
+    margin-top: 2px;
+    margin-bottom: 10px;
+
+}
